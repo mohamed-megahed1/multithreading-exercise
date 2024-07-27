@@ -4,7 +4,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+* in this exercise we will recolor an image
+* but we will use multithreading on  it
+* to reduse latency
+* 
+* */
 public class Main {
     public static final String SOURCE_FILE="./resources/many-flowers.jpg";
     public static final String DESTINATION_FILE="./out/many-flowers.jpg";
